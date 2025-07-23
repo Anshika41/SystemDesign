@@ -1,8 +1,10 @@
-import Observable.IphoneObserver;
-import Observable.StockObserverable;
-import Observer.EmailAlertObserver;
-import Observer.MobileAlertObserver;
-import Observer.NotificationAlertObserver;
+package ObserverPattern;
+
+import ObserverPattern.Observable.IphoneObserver;
+import ObserverPattern.Observable.StockObserverable;
+import ObserverPattern.Observer.EmailAlertObserver;
+import ObserverPattern.Observer.MobileAlertObserver;
+import ObserverPattern.Observer.NotificationAlertObserver;
 
 public class Store {
     public static void main(String[] args) {

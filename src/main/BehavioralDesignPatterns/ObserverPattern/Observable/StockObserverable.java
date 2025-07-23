@@ -1,6 +1,6 @@
-package Observable;
+package ObserverPattern.Observable;
 
-import Observer.NotificationAlertObserver;
+import ObserverPattern.Observer.NotificationAlertObserver;
 
 public interface  StockObserverable {
     void add(NotificationAlertObserver observer);

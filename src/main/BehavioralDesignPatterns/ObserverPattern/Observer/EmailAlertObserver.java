@@ -1,6 +1,6 @@
-package Observer;
+package ObserverPattern.Observer;
 
-import Observable.StockObserverable;
+import ObserverPattern.Observable.StockObserverable;
 
 public class EmailAlertObserver implements NotificationAlertObserver{
 
