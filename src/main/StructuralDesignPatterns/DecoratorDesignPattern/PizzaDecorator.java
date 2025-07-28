@@ -1,5 +1,6 @@
 package DecoratorDesignPattern;
-
+//CheeseDecorator is an abstract class implementing Pizza interface.
+//It maintains a reference to the decorated Pizza object.
 public abstract class PizzaDecorator implements Pizza{
     protected Pizza decoratedPizza;
 

@@ -1,6 +1,7 @@
 package DecoratorDesignPattern;
 
 public class OliveDecorator extends PizzaDecorator{
+
     public OliveDecorator(Pizza pizza) {
         super(pizza);
     }
